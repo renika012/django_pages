@@ -3,6 +3,6 @@ from django.contrib import admin
 from django.urls import path, include # new
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('pages/',('pages.urls')), # new
+    path('admin/', http://admin.site.urls),
+    path('pages/', include('pages.urls')), # new
 ]
